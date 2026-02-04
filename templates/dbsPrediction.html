@@ -1,0 +1,14 @@
+<head>
+    <meta name = "viewport", content = "width = devide-with,initial-scale  =   1.0">
+    <link rel="stylesheet", href = "{{url_for('static',filename='styles.css')}}">
+
+</head>
+
+<body>
+    <div class = "container">
+        <h2>The predicted share price is {{r}}</h2>
+        <form action ="/main" method = "post">
+            <p><input type = "submit" value="Main"></p>
+        </form>
+    </div>
+</body>
